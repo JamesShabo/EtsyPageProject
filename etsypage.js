@@ -36,5 +36,6 @@ function putInDom(data) {
         `
     })
 
-    $("#galleryDisplay").html(htmlStr)
+    $("#galleryGrid").html(htmlStr)
 }
+
