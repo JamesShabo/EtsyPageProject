@@ -2,6 +2,7 @@ html {
 	box-sizing: border-box; 
 	background-color: #F5F5F1;
 	font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+	height:85%;
 }
 
 
@@ -93,7 +94,7 @@ a{
 	text-decoration: none;
 }
 
-ul{
+.allCategories{
 	list-style-type: none;
 	padding-left: 30px;
   margin-bottom: 0px;
@@ -204,7 +205,7 @@ aside{
 }
 
 #galleryGrid{
-	height:2200px;
+	height:1800px;
 	width:940px;
 	float:right;
 	margin-right: 60px;
@@ -216,9 +217,99 @@ aside{
 	padding-bottom: 300px;
 }
 
-.location{
+h4{
+	font-size:13px;
+	margin:0;
+	margin-top: 10px;
+}
+
+
+.location, .itemType{
 	border-bottom:1px solid #777;
-	height:109px;
+	height:120px;
 	width:85%;
 	margin-left: 15px;
+}
+
+.price{
+	height:180px;
+	width:85%;
+	border-bottom:1px solid #777;
+	margin-left:15px;
+}
+
+.color{
+	height:50px;
+	width:85%;
+	border-bottom:1px solid #777;
+	margin-left: 15px;
+}
+
+.red, .orange, .yellow, .green, .blue, .purple, .black, .white{
+	height:20px;
+	width:20px;
+	display:inline-flex;
+	border: 1px solid #e2e2e2;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.red{
+	background-color:red;
+}
+
+.orange{
+	background-color:orange;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: limegreen;
+}
+
+.blue{
+	background-color: aqua;
+}
+
+.purple{
+	background-color: purple;
+}
+
+.black{
+	background-color: black;
+}
+
+li{
+	  color: #0192B5;
+	  list-style: none;
+}
+
+
+.relatedTo{
+	margin:100px 0px 0px 300px;
+	list-style: none;
+
+}
+
+.listUnstyled{
+	height:300px;
+	width:100%;
+	margin-top: 0px;
+}
+
+.firstCol{
+
+}
+
+.secondCol{
+	margin-left: 300px;
+}
+
+.thirdCol{
+	float:right;
+	margin-right: 300px;
+
 }
