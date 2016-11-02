@@ -13,11 +13,13 @@
 			<img src="EtsyLogo.png">
 					</div>
 				<div class="searchBar">
-					<input type="search">
+					<input class="search" type="search">
 						<button>Search</button>
 						</input>
 							</div>
-			
+							<text class="sell"> Sell on Etsy </text>
+							<text class="register"> Register </text>
+							<div class="signIn"><text> Sign In </text></div>
 							</header>
 						<nav>
 					<li><a>Clothing & Accessories</a></li>
@@ -53,16 +55,39 @@
 							<li>Pet Supplies</li><br>
 								</ul>
 								</aside>
+										<div class="lineHeightSidebar">
 									<h5>Refine your search</h5>
 									<aside class="refine">
-								<div class="location">
-							<h4> Shop Location </h4>
+									<div class="location">
+									<h4>Shop Location </h4>
+									<ul> 
+								<li><input type="radio" name="price" value="anyPrice"> Anywhere </li>
+							<li> <input type="radio" name="price" value="anyPrice">United States </li>
+							<text> Choose a custom Location </text>
+								</ul>
 						</div>
 					<div class="itemType">
 						<h4> Item Type </h4>
+							<ul>
+							<li> <input type="radio" name="price" value="anyPrice">All Items </li>
+							<li><input type="radio" name="price" value="anyPrice"> Handmade </li>
+							<li><input type="radio" name="price" value="anyPrice"> Vintage </li>
+							</ul>
 							</div>
 								<div class="price">
 						<h4> Price($) </h4>
+							<ul>
+							
+							<li><input type="radio" name="price" value="anyPrice"> Any Price </li>
+							<li> <input type="radio" name="price" value="anyPrice">Under $25 </li>
+							<li> <input type="radio" name="price" value="anyPrice">$25 to $50 </li>
+							<li> <input type="radio" name="price" value="anyPrice">$50 to $100 </li>
+							<li> <input type="radio" name="price" value="anyPrice">Over $100 </li>
+							</ul>
+								<input type="text" placeholder="Low" class="input price-input" name="min" value="">
+															<text>To</text>
+									<input type="text" placeholder="High" class="input price-input" name="max" value="">
+											
 							</div>
 									<div class="color">
 								<h4> Filter By Color </h4>
@@ -75,45 +100,80 @@
 							<div class="black"></div>
 							<div class="white"></div>
 						</div>
-								</aside>
-						
-					
-
-		</div>
-
-			
-
-							
-			<div class="relatedTo"> 
-							<h6> Related to...</h6>
-							<div class="firstCol">
-									<ul class="listUnstyled">
-										<li>whiskey barrel</li>
-										<li>whiskey decanter</li>
-										<li>whiskey stones</li>
-										<li>scotch</li>
-									</ul>
-									</div>
-							<div class="secondCol">
-									<ul class="listUnstyled">
-										<li>bourbon</li>
-										<li>cigar</li>
-										<li>gift for men</li>
-										<li>jack daniels</li>
-									</ul>
+						<div class="ordering">
+									<h4>	Ordering Options </h4>
+								<input type="checkbox" class="checkbox"></input>
+								<text class=""> In Your Favorites </text> <br />
+								<input type="checkbox" class="checkbox"></input>
+								<text class=""> Accepts Etsy Gift Cards </text>
+								<input type="checkbox" class="checkbox"></input>
+								<text class=""> Customizable </text>
 								</div>
-								<div class="thirdCol">
-									<ul class="listUnstyled">
-										<li>whiskey decanter set</li>
-										<li>beer</li>
-									</ul>
-								</div>
-								
+									<div class="country">
+									<h4> Select a country </h4><br />
+		
+							<select name="country">
+								<option value="">United States</option>
+									<option value="AF">Afghanistan</option>
+										<option value="AL">Albania</option>
+											<option value="DZ">Algeria</option>
+												<option value="AS">American Samoa</option>
+													<option value="AD">Andorra</option>
+														<option value="AG">Angola</option>
+													<option value="AI">Anguilla</option>
+												<option value="AG">Antigua &amp; Barbuda</option>
+											<option value="AR">Argentina</option>
+										<option value="AA">Armenia</option>
+											<option value="AW">Aruba</option>
+												<option value="AU">Australia</option>
+													<option value="AT">Austria</option>
+														<option value="AZ">Azerbaijan</option>
+															<option value="BS">Bahamas</option>
+														<option value="BH">Bahrain</option>
+													<option value="BD">Bangladesh</option>
+												<option value="BB">Barbados</option>
+											<option value="BY">Belarus</option>
+										<option value="BE">Belgium</option>
+									<option value="BZ">Belize</option>
+								<option value="BJ">Benin</option>
+							<option value="BM">Bermuda</option>
+						<option value="BT">Bhutan</option>
+					<option value="BO">Bolivia</option>
+				<option value="BL">Bonaire</option>
+			<option value="BA">Bosnia &amp; Herzegovina</option>
+		<option value="BW">Botswana</option>
+	<option value="BR">Brazil</option>
+<option value="BC">British Indian Ocean Ter</option>
+	<option value="BN">Brunei</option>
+		<option value="BG">Bulgaria</option>
+			<option value="BF">Burkina Faso</option>
+				<option value="BI">Burundi</option>
+					<option value="KH">Cambodia</option>
+						<option value="CM">Cameroon</option>
+							<option value="CA">Canada</option>
+								<option value="IC">Canary Islands</option>
+									<option value="CV">Cape Verde</option>
+										<option value="KY">Cayman Islands</option>
+										<option value="CF">Central African Republic</option>
+											<option value="TD">Chad</option>
+												<option value="CD">Channel Islands</option>
+													<option value="CL">Chile</option>
+														<option value="CN">China</option>
+														<option value="CI">Christmas Island</option>
+															<option value="CS">Cocos Island</option>
+																<option value="CO">Colombia</option>
+																</select>
+																</div>
+																</aside>
+																</div>
+																</div>
+																</div>
+																					
+	
 
-							</div>
-			</div>
-
-
+																		</div>
+																			
+																	
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="etsypage.js"></script>
