@@ -125,7 +125,7 @@ nav{
 header{
 	width: 100%;
 	height:100px;
-	background-color: white;
+	background-color: black;
 	display:flex;
 }
 
@@ -184,7 +184,7 @@ span{
 }
 
 aside{
-	background-color: white;
+	background-color: black;
   border-radius: 3px;
   border-width: 1px;
   border-style: solid;
